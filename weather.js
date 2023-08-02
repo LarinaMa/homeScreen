@@ -1,7 +1,7 @@
 // Create function displayWeather()
 function displayWeather() {
   fetch(
-    "https://api.openweathermap.org/data/2.5/weather?q=Jacksonville&units=imperial&appid=d98791f28ad49cf55ea8290da4629400"
+    ""
   )
     .then((response) => response.json())
     .then((data) => {
